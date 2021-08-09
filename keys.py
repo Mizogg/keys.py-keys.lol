@@ -1,4 +1,4 @@
-# keys.py Full Random Bitcoin Legacy compressed/uncompresses address and Segwit address Online Transactions\Balance\TotalReceaived. 09/07/2021
+# keys.py Full Sequencial Bitcoin Legacy compressed/uncompresses address and Segwit address Online Transactions\Balance\TotalReceaived. 09/07/2021
 # Good Luck and Happy Hunting. Made by mizogg.co.uk
 # Donations 3M6L77jC3jNejsd5ZU1CVpUVngrhanb6cD
 from time import sleep
