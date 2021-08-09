@@ -1,6 +1,7 @@
 # VIP_KEYS.py-Random-keys.lol
 # VIP_KEYS.py Random Bitcoin Legacy compressed/uncompresses addresses. Check 128 Addresses for Balance/transaction . Based on https://keys.lol/
 
+keys.py Sequencial scan though pages on keys.lol
 
 ![image](https://user-images.githubusercontent.com/88630056/128756536-b21ba09e-9c82-4b49-84ca-6f69b7257b8b.png)
 
