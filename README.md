@@ -19,4 +19,11 @@ keys.py
 FULL Results Sequential Scan 128 Results per page/scan. Checks all information final balance, Transactions, Total Received and Total sent. Saves the page number of wallet found. Blockchain.info/multiaddr join query 128 addresses. 10 Seconds for sleep so that the API does not block you. 
 # Good Luck and Happy Hunting. Made by mizogg.co.uk
 
+
+ADDED/UPDATED 23/08/2021 (Error on page number when rounding upthe numbers. Would have to check 1 page the found if page number was odd number) FIXED
+
+import maths
+
+pagenumber= math.ceil(int(seed)/128)
+
 # Donations 3M6L77jC3jNejsd5ZU1CVpUVngrhanb6cD
