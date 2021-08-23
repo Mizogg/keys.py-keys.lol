@@ -13,7 +13,7 @@ from time import time
 from datetime import timedelta, datetime
 from bit import *
 from bit.format import bytes_to_wif
-
+import math
 
 def seconds_to_str(elapsed=None):
     if elapsed is None:
@@ -65,7 +65,7 @@ while P<y:
     count+=1
     total+=128 
     seed=str(ran)
-    pagenumber= int(seed)//128
+    pagenumber= math.ceil(int(seed)/128)
     if len(query) == 128:
         
         try:
