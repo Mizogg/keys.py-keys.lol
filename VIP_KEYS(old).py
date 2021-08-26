@@ -17,7 +17,6 @@ from bit.format import bytes_to_wif
 import random
 import csv
 from itertools import zip_longest
-import math
 
 def seconds_to_str(elapsed=None):
     if elapsed is None:
@@ -319,7 +318,7 @@ while True:
     query1=(key.to_hex(),key1.to_hex(),key2.to_hex(),key3.to_hex(),key4.to_hex(),key5.to_hex(),key6.to_hex(),key7.to_hex(),key8.to_hex(),key9.to_hex(),key10.to_hex(),key11.to_hex(),key12.to_hex(),key13.to_hex(),key14.to_hex(),key15.to_hex(),key16.to_hex(),key17.to_hex(),key18.to_hex(),key19.to_hex(),key20.to_hex(),key21.to_hex(),key22.to_hex(),key23.to_hex(),key24.to_hex(),key25.to_hex(),key26.to_hex(),key27.to_hex(),key28.to_hex(),key29.to_hex(),key30.to_hex(),key31.to_hex(),key32.to_hex(),key33.to_hex(),key34.to_hex(),key35.to_hex(),key36.to_hex(),key37.to_hex(),key38.to_hex(),key39.to_hex(),key40.to_hex(),key41.to_hex(),key42.to_hex(),key43.to_hex(),key44.to_hex(),key45.to_hex(),key46.to_hex(),key47.to_hex(),key48.to_hex(),key49.to_hex(),key50.to_hex(),key51.to_hex(),key52.to_hex(),key53.to_hex(),key54.to_hex(),key55.to_hex(),key56.to_hex(),key57.to_hex(),key58.to_hex(),key59.to_hex(),key60.to_hex(),key61.to_hex(),key62.to_hex(),key63.to_hex(),key64.to_hex(),key65.to_hex(),key66.to_hex(),key67.to_hex(),key68.to_hex(),key69.to_hex(),key70.to_hex(),key71.to_hex(),key72.to_hex(),key73.to_hex(),key74.to_hex(),key75.to_hex(),key76.to_hex(),key77.to_hex(),key78.to_hex(),key79.to_hex(),key80.to_hex(),key81.to_hex(),key82.to_hex(),key83.to_hex(),key84.to_hex(),key85.to_hex(),key86.to_hex(),key87.to_hex(),key88.to_hex(),key89.to_hex(),key90.to_hex(),key91.to_hex(),key92.to_hex(),key93.to_hex(),key94.to_hex(),key95.to_hex(),key96.to_hex(),key97.to_hex(),key98.to_hex(),key99.to_hex(),key100.to_hex(),key101.to_hex(),key102.to_hex(),key103.to_hex(),key104.to_hex(),key105.to_hex(),key106.to_hex(),key107.to_hex(),key108.to_hex(),key109.to_hex(),key110.to_hex(),key111.to_hex(),key112.to_hex(),key113.to_hex(),key114.to_hex(),key115.to_hex(),key116.to_hex(),key117.to_hex(),key118.to_hex(),key119.to_hex(),key120.to_hex(),key121.to_hex(),key122.to_hex(),key123.to_hex(),key124.to_hex(),key125.to_hex(),key126.to_hex(),key127.to_hex())
     count+=1
     total+=128 
-    pagenumber= math.ceil(int(seed)/128)
+    pagenumber= int(seed)//128
     if len(query) == 128 or len(query1) == 128:
         try:
             request = requests.get("https://blockchain.info/multiaddr?active=%s" % ','.join(query),timeout=10)
