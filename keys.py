@@ -4,7 +4,6 @@
 from time import sleep
 import bit
 import requests
-from bitcoin import *
 import colorama
 from colorama import Fore, Back, Style
 colorama.init()
