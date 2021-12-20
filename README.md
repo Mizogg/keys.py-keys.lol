@@ -6,7 +6,7 @@ keys.py Sequential scan and keysr.py Random scan
 
 I hope you all enjoy. Bit is Python’s fastest Bitcoin library using Block Chain API to query 256 addresses.
 
-Test it here : https://replit.com/@Mizogg/keyspy-Random-keyslol?v=1
+Test it here : https://replit.com/@Mizogg/keyspy-keyslol?v=1
 
 ## To Install
 ```
