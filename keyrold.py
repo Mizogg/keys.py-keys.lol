@@ -1,4 +1,4 @@
-# My Version of KEYS.LOL made my Mizogg https://mizogg.co.uk
+# My Version of Random KEYS.LOL made my Mizogg https://mizogg.co.uk
 from bit import *
 from bit.format import bytes_to_wif
 import random, codecs, sys, atexit, time, requests
