@@ -1,4 +1,4 @@
-# Keys.py Random keys.lol
+# Keys.py Random&Sequential keys.lol
 
 My Version of KEYS.LOL made my Mizogg https://mizogg.co.uk
 
