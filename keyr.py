@@ -1,7 +1,8 @@
+# This Python file uses the following encoding: utf-8
 # My Version of Random KEYS.LOL made my Mizogg https://mizogg.co.uk
 from bit import *
 from bit.format import bytes_to_wif
-import random, codecs, sys, atexit, time, requests
+import random, codecs, sys, atexit, time, requests, os
 from rich.console import Console
 
 console = Console()
