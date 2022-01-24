@@ -1,3 +1,11 @@
+# Updated New Vesion PySimpleGUI
+
+
+![image](https://user-images.githubusercontent.com/88630056/150878248-c225a437-486d-47ee-b913-53c62efe105f.png)
+
+
+
+
 # Keys.py Random&Sequential keys.lol
 
 My Version of KEYS.LOL made my Mizogg https://mizogg.co.uk
